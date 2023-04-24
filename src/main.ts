@@ -5,9 +5,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 @Component({
   selector: 'my-app',
   standalone: true,
-  temptate{(
-    hr
-})
+  temptate:'{()}',
 export class App {
   name = 'Angular';
 }
